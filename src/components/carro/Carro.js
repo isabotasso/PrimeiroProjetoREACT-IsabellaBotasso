@@ -2,12 +2,15 @@ import React, { useState } from 'react'
 import './carro.css'
 function Carro(props) {
 
+    let modeloCarro = 'modelo '
+    modeloCarro += props.roxo ? 'roxo' : ''
+    modeloCarro += props.amarelo ? 'amarelo' : ''
 
 
     return (
       <>
         <li className="item">
-            <div className="modelo">{props.modelo}</div>
+            <div className={modeloCarro}>{props.modelo}</div>
             <div className="marca">{props.marca}</div>
             <div className="cor">{props.cor}</div>
             <div className="ano">{props.ano}</div>

@@ -52,21 +52,13 @@
 
 }
 
-.btn-comprar{
-    margin-top: 20px;
-    background-color: aquamarine;
-    border: none;
-    font-weight: bold;
-    border-radius: 15px;
-    height: 25px;
-   
-}
 
-.verde{
-    background-color: green;
+
+.roxo{
+    color: purple;
 
 }
 
-.rosa{
-    background-color: pink;
+.amarelo{
+    color: yellow;
 }
