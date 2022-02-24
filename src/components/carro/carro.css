@@ -1,0 +1,72 @@
+.item{
+    text-align: center;
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 20px 5px;
+    border-radius: 10px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    list-style: none;
+    background-color: rgba(128, 128, 128, 0.493);
+
+}
+.portas{
+    color:gray
+}
+
+.combustivel{
+    color: #ccc;
+}
+
+.cambio{
+    color: blue;
+}
+.tam_aro{
+    color: rgb(75, 75, 75);
+} 
+
+.potencia{
+    color: cadetblue;
+}
+
+.preco{
+    color: white;
+}
+
+.item:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.nome{
+    font-weight: bold;
+}
+
+.marca{
+    color: blueviolet;
+
+}
+
+.valor{
+    color:blue;
+    font-weight: bold;
+
+}
+
+.btn-comprar{
+    margin-top: 20px;
+    background-color: aquamarine;
+    border: none;
+    font-weight: bold;
+    border-radius: 15px;
+    height: 25px;
+   
+}
+
+.verde{
+    background-color: green;
+
+}
+
+.rosa{
+    background-color: pink;
+}
